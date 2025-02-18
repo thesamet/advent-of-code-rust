@@ -84,7 +84,7 @@ fn get_input_path(day: Day) -> String {
     format!("data/inputs/{day}.txt")
 }
 
-fn get_puzzle_path(day: Day) -> String {
+pub fn get_puzzle_path(day: Day) -> String {
     format!("data/puzzles/{day}.md")
 }
 
